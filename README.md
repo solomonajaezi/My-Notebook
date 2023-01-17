@@ -28,16 +28,27 @@ A filesystem is a method of storing/finding files on a hard disk (usually in a p
 One can think of a partition as a container in which a filesystem resides, although in some circumstances, a filesystem can span more than one partition if one uses symbolic links, which we will discuss much later.
 
 /bin: Linux commands
+
 /boot: Contains files that are not used by the operating system, but by its bootloader
+
 /etc: Additional program and files (Configuration changes)
+
 /lib: C programming library directory
+
 /mnt: Mount directory, usually reserved for mounting filesystems
+
 /opt: Optional add-on applications
+
 /root: Root home directory. It's not the same as /
+
 /sbin: System binaries
+
 /proc: Running process (Tell you the different programs that are running
+
 /tmp: Temporary directory
+
 /home: User directory
+
 /var: Directory for the system logs (where the system logs are created)
 
 
